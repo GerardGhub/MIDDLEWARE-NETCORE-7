@@ -1,6 +1,6 @@
 {
   "profiles": {
-    "http": {
+    "ProjectKestrel": {
       "commandName": "Project",
       "workingDirectory": "C:\\FilesGerard\\Net Core Project\\MyFirstAppIn7\\MyFirstAppCoreSyete\\bin",
       "launchBrowser": true,
