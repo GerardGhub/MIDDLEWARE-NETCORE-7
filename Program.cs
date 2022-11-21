@@ -13,7 +13,9 @@ app.Use(async (HttpContext context, RequestDelegate next) =>
 
 //Middleware 2
 //app.UseMiddleware<MyCustomMiddleware>();
-app.UseMyCustomMiddleware();
+//app.UseMyCustomMiddleware();
+app.UseHelloCustomMiddleware();
+
 
 //http redirection/ authorization
 //Middleware 3
